@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Book Bazar</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="favicon-32x32.png" />
+  <style>.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #f4f1eb;
+  }
+  
+  .logo {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .brand-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4e342e;
+    margin-right: auto; /* pushes the nav links to the right */
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #3c3c3c;
+    font-weight: 500;
+  }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <img src="logo.png" alt="The Book Bazar Logo" class="logo" />
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Enquiry</a></li>
+        <li><a href="#">About us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to Book Bazar</h1>
+    <p>Where stories fall into your hands like autumn leaves 😊🍂</p>
+    <button>Browse our collection</button>
+  </section>
+
+  <section class="featured-books">
+    <h2>Featured Reads</h2>
+    <div class="book-card">
+      <img src="book1.jpg" alt="Whispers of Autumn" />
+      <h3>Whispers of Autumn</h3>
+      <p>A heartwarming tale of love, loss, and leaves.</p>
+    </div>
+    <div class="book-card">
+      <img src="book2.jpg" alt="Falling for You" />
+      <h3>Falling for You</h3>
+      <p>When destiny blows in like the wind through amber trees.</p>
+    </div>
+  </section>
+
+  <section class="testimonial">
+    <blockquote>
+      “Book Bazar is my go-to for soul-touching romance novels. The vibe is unmatched!”
+    </blockquote>
+    <p class="reader-name">— ✨ Happy Reader</p>
+  </section>
+
+  <section class="about-snippet">
+    <h2>Our Story</h2>
+    <p>
+      At <strong>The Book Bazar</strong>, we believe books are like autumn leaves — ready to fall into your hands and change your world.
+    </p>
+  </section>
+
+  <section class="newsletter">
+    <h2>Join our Leafletter 🍁</h2>
+    <form>
+      <input type="email" placeholder="Your email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 The Book Bazar. All rights reserved</p>
+  </footer>
+</body>
+</html>
